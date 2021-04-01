@@ -18,10 +18,12 @@ function App() {
         <Header />
         <NavbarPort />
         <Wrapper>
-          <Route exact path="/" component={Images} />
-          <Route exact path="/profile" component={Profile} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/" component={Images} />
+            <Route exact path="/profile" component={Profile} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
         </Wrapper>
         <Footer />
       </div>
