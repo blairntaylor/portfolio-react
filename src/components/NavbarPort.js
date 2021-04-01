@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
-function Navbar() {
+function NavbarPort() {
   return (
     <>
       <Navbar bg="light" expand="lg">
@@ -28,4 +28,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarPort;
